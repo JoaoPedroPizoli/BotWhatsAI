@@ -1,4 +1,4 @@
-# Consultor Inteligente - Metalúrgica Mococa S/A
+# Consultor Inteligente 
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-≥20.12.2-brightgreen.svg)](https://nodejs.org/)
 [![Python Version](https://img.shields.io/badge/Python-≥3.10.11-blue.svg)](https://www.python.org/)
@@ -132,15 +132,13 @@ sequenceDiagram
 
 ### Desenvolvimento e Arquitetura
 - **João Pedro Pizoli Carvalho**
-  Desenvolvedor de Software - Metalúrgica Mococa S/A
+  Desenvolvedor de Software 
 
-### Supervisão Técnica
-- **Equipe de TI Mococa**
-  ti@mococa.com
+
 
 ## 📄 Licença & Direitos
 
-**Propriedade Exclusiva - Metalúrgica Mococa S/A (2024)**
+**Propriedade Exclusiva**
 - Uso interno exclusivo
 - Documentação sujeita a atualizações
 - Todos os direitos reservados
