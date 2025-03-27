@@ -1,4 +1,4 @@
-# Consultor Inteligente 
+# Consultor Inteligente - Metalúrgica Mococa S/A
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-≥20.12.2-brightgreen.svg)](https://nodejs.org/)
 [![Python Version](https://img.shields.io/badge/Python-≥3.10.11-blue.svg)](https://www.python.org/)
@@ -102,6 +102,48 @@ sequenceDiagram
     Serviço->>-Usuário: Envia via WhatsApp
 ```
 
+## 📊 Geração de Gráficos Avançada
+
+O sistema oferece geração automática de visualizações gráficas baseadas em dados de produção e requisições em linguagem natural.
+
+### 🔧 Funcionamento Técnico
+- **Tecnologias Principais**:
+  - Google Gemini (IA Generativa)
+  - Chart.js (Renderização de gráficos)
+  - Puppeteer (Conversão para PNG)
+- **Tipos de Gráficos Suportados**:
+  - Barras verticais/horizontais
+  - Linhas temporais
+  - Pizza e Rosca (Doughnut)
+  - Combinados (quando aplicável)
+
+### 📋 Como Utilizar
+Envie uma mensagem contendo:
+1. O tipo de análise desejada (ex: "comparativo", "temporal")
+2. Os parâmetros relevantes (período, máquinas, produtos)
+3. Opcionalmente, o tipo de gráfico preferido
+
+Exemplo:  
+_"Mostre um gráfico de barras comparando a produção por máquina no último mês"_
+
+### 🎨 Formatação Automática
+- Estilo corporativo consistente
+- Labels de dados sempre visíveis
+- Formatação automática de valores (milhares, decimais)
+- Paleta de cores padronizada
+- Layout responsivo e otimizado para WhatsApp
+
+### ⚙️ Fluxo de Geração
+```mermaid
+sequenceDiagram
+    Usuário->>+Serviço: Envia requisição de gráfico
+    Serviço->>+Gemini: Gera código HTML/Chart.js
+    Gemini-->>-Serviço: Retorna HTML do gráfico
+    Serviço->>+Puppeteer: Converte HTML para PNG
+    Puppeteer-->>-Serviço: Imagem do gráfico
+    Serviço->>-Usuário: Envia gráfico via WhatsApp
+```
+
 ## 🔒 Segurança & Performance
 
 ### Segurança
@@ -132,13 +174,15 @@ sequenceDiagram
 
 ### Desenvolvimento e Arquitetura
 - **João Pedro Pizoli Carvalho**
-  Desenvolvedor de Software 
+  Desenvolvedor de Software - Metalúrgica Mococa S/A
 
-
+### Supervisão Técnica
+- **Equipe de TI Mococa**
+  ti@mococa.com
 
 ## 📄 Licença & Direitos
 
-**Propriedade Exclusiva**
+**Propriedade Exclusiva - Metalúrgica Mococa S/A (2024)**
 - Uso interno exclusivo
 - Documentação sujeita a atualizações
 - Todos os direitos reservados
